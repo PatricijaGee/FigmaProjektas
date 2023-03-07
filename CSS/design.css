@@ -16,6 +16,10 @@ h5 {
   font-family: "Lora", serif;
 }
 
+p {
+  font-family: "Roboto", serif;
+}
+
 .header {
   background-color: #ff7000;
 }
@@ -66,7 +70,7 @@ h5 {
 
 .scnd-header-content .contacts {
   display: flex;
-  padding-right: 46px;
+  margin: 0;
 }
 
 .scnd-header-content .contacts .email .name,
@@ -103,6 +107,12 @@ h5 {
   width: 165px;
   height: 55px;
   text-transform: uppercase;
+}
+
+.donate-btn:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #333333;
 }
 
 .navigation {
@@ -178,4 +188,79 @@ h5 {
 
 .hero .hero-content p {
   color: #666666;
+}
+
+.cause-content h1 {
+  padding-top: 130px;
+  font-size: 3rem;
+  line-height: 69.12px;
+  text-align: center;
+  border-bottom: 3px solid #ff7000;
+}
+
+.cause-content p {
+  text-align: center;
+}
+
+.cards .card-body {
+  display: flex;
+  padding-top: 95px;
+}
+
+.card-content {
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one,
+.two,
+.three {
+  border: none;
+  width: 370px;
+  height: 616px;
+  border-radius: 5px;
+  background-color: #ebebeb;
+}
+
+.card-content img {
+  width: 370px;
+  height: 271px;
+}
+
+.card-content h5 {
+  font-size: 21px;
+  padding: 0 17px;
+}
+
+.card-content p {
+  max-width: 305px;
+  padding: 0 33px;
+}
+
+.donate-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.donate-content h5 {
+  color: #ff7000;
+  margin: 0;
+}
+
+.donate-container {
+  background: #999999;
+  width: 302px;
+  height: 6px;
+  border-radius: 4px;
+  margin: 0 34px;
+}
+
+.donate-eighty-perc {
+  width: 241px;
+  height: 6px;
+  background-color: #ff7000;
+  position: absolute;
+  border-radius: 4px;
 }
