@@ -95,7 +95,8 @@ p {
   margin-top: 20px;
 }
 
-.donate-btn {
+.donate-btn,
+.cause-btn {
   background: #ff7000;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -110,6 +111,12 @@ p {
 }
 
 .donate-btn:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #333333;
+}
+
+.cause-btn:hover {
   transition: 0.3s;
   cursor: pointer;
   background-color: #333333;
@@ -182,6 +189,10 @@ p {
   line-height: 69px;
 }
 
+.need {
+  color: #ff7000;
+}
+
 .end {
   color: #ff7000;
 }
@@ -195,11 +206,18 @@ p {
   font-size: 3rem;
   line-height: 69.12px;
   text-align: center;
+}
+
+.border-box {
+  width: 100px;
   border-bottom: 3px solid #ff7000;
+  color: #ff7000;
+  margin-left: 45%;
 }
 
 .cause-content p {
   text-align: center;
+  padding-top: 30px;
 }
 
 .cards .card-body {
@@ -231,7 +249,7 @@ p {
 
 .card-content h5 {
   font-size: 21px;
-  padding: 0 17px;
+  padding: 0 33px;
 }
 
 .card-content p {
@@ -242,11 +260,12 @@ p {
 .donate-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .donate-content h5 {
   color: #ff7000;
-  margin: 0;
+  padding: 0 33px;
 }
 
 .donate-container {
@@ -263,4 +282,198 @@ p {
   background-color: #ff7000;
   position: absolute;
   border-radius: 4px;
+}
+
+.cause-button {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.urgent-cause {
+  background: #444444;
+  height: 946px;
+}
+
+.urgent-cause-content .border-box {
+  margin: 0 !important;
+}
+.urgent-cause-content {
+  max-width: 535px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.urgent-cause-content h1 {
+  font-size: 54px;
+  color: #fff;
+}
+
+.urgent-cause-content p {
+  max-width: 489px;
+  color: #666666;
+}
+
+.urgent-cause-content h5 {
+  font-size: 21px;
+  color: #fff;
+}
+.very-urgent {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.very-urgent img {
+  position: relative;
+}
+
+.very-urgent .donate-btn {
+  position: absolute;
+  margin-top: 340px;
+  margin-left: 180px;
+}
+
+.urgent,
+.school,
+.amount,
+.donate,
+.help,
+.peepole,
+.vol {
+  color: #ff7000;
+}
+
+.container-section {
+  display: flex;
+  margin-top: 139px;
+}
+
+.container-section img {
+  padding-right: 100px;
+}
+
+.section-content h1 {
+  font-size: 54px;
+}
+
+.donation i,
+.volunteer i,
+.media i {
+  background-color: #ff7000;
+  border-radius: 50%;
+  font-size: 27px;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 2.5;
+}
+
+.donation,
+.volunteer,
+.media {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+}
+
+.donation h5,
+.volunteer h5,
+.media h5 {
+  font-size: 28px;
+  padding: 0;
+  margin: 0;
+}
+
+.first,
+.second,
+.third {
+  position: absolute;
+  font-size: 30px;
+  opacity: 10%;
+}
+
+.section-content .border-box {
+  margin-left: 0 !important;
+}
+
+.we-help {
+  background: #222222;
+  height: 639px;
+}
+
+.help-image {
+  background: url(/images/path21630.png) no-repeat center center;
+  opacity: 10%;
+  height: 100%;
+  position: relative;
+}
+
+.we-help-content {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  max-width: 748px;
+  padding: 124px 142px 586px;
+}
+
+.we-help-content h1 {
+  font-size: 54px;
+  color: #fff;
+}
+
+.we-help-content h5 {
+  color: #ff7000;
+  font-size: 35px;
+}
+
+.we-help-content p {
+  color: #fff;
+}
+
+.learn-more,
+.join-us {
+  background: #ff7000;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 17px 24px;
+  font-size: 16px;
+  width: 165px;
+  height: 55px;
+  text-transform: uppercase;
+}
+
+.learn-more:hover {
+  transition: 0.3s;
+  background-color: #fff;
+  color: #ff7000;
+  cursor: pointer;
+}
+.join-us:hover {
+  transition: 0.3s;
+  background-color: #fff;
+  color: #ff7000;
+  cursor: pointer;
+}
+
+.people-feedback {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.one-person {
+  display: flex;
+  max-width: 526px;
+  max-height: 175px;
+  flex-wrap: wrap;
 }
