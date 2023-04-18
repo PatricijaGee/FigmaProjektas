@@ -138,7 +138,7 @@ p {
 .navbar-content ul li {
   list-style: none;
   color: #f8f8f8;
-  padding: 18px;
+  padding: 21px;
 }
 
 .navbar-content a {
@@ -338,13 +338,7 @@ p {
   margin-left: 180px;
 }
 
-.urgent,
-.school,
-.amount,
-.donate,
-.help,
-.peepole,
-.vol {
+span {
   color: #ff7000;
 }
 
@@ -466,6 +460,18 @@ p {
   cursor: pointer;
 }
 
+.feedback-content {
+  text-align: center;
+}
+
+.feedback-content h1 {
+  font-size: 54px;
+}
+
+.feedback-content p{
+  margin-top: 30px;
+}
+
 .people-feedback {
   display: flex;
   flex-wrap: wrap;
@@ -473,7 +479,144 @@ p {
 
 .one-person {
   display: flex;
+  align-items: center;
   max-width: 526px;
   max-height: 175px;
   flex-wrap: wrap;
+  margin-bottom: 66px;
+}
+
+.image {
+  margin-right: 20px;
+}
+
+.person-content {
+  flex: 1;
+  padding: 0 5px;
+  margin-top: 25px;
+}
+
+.person-content h5 {
+  color:#ff7000;
+  font-size: 21px;
+  padding: 0;
+  margin: 0;
+}
+
+.person-content p {
+  line-height: 24px;
+  font-size: 16px;
+  color: #666666;
+}
+
+.gallery-all {
+  margin-bottom: 178px;
+}
+
+.gallery-content {
+  text-align: center;
+}
+
+.gallery-content h1 {
+  font-size: 54px;
+}
+
+.gallery-content p {
+  margin-top: 30px;
+}
+
+.box {
+  position: relative;
+  background-color: #333333;
+  width: 370px;
+  height: 270px;
+  display: inline-block;
+}
+
+
+
+footer {
+  background: #222222;
+  height: 639px;
+}
+
+footer .help-image {
+  background: url(/images/path21630.png) no-repeat center center;
+  opacity: 10%;
+  height: 100%;
+  position: relative;
+}
+
+.footer-nav {
+  display:flex;
+  margin-top: 100px;
+  position:absolute;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-nav .logo {
+  width: 158px;
+  height: 53px;
+  left: 375px;
+}
+
+.nav-one, .nav-two, .nav-three, .nav-four {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+  flex: 1;
+  padding: 25px;
+}
+
+.nav-one p, .nav-two p, .nav-three p, .nav-four p {
+  color: white;
+}
+
+.footer-nav ul li {
+  list-style-type: none;
+}
+
+.footer-nav ul li a {
+  text-decoration: none;
+  color:#fff;
+}
+
+.nav-two a {
+  line-height: 21.79px;
+}
+
+.nav-four a i{
+  color:#ff7000;
+  font-size: 24px;
+}
+
+.nav-three ul li {
+  color:#fff;
+  line-height: 21.79px;
+}
+
+@media (max-width: 600px) {
+  .scnd-header-content .contacts .email .name,
+.call .name {
+display: none;
+  }
+  .navbar-content ul li a{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    flex-wrap: wrap;
+  }
+  .card-body {
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .very-urgent {
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 }
